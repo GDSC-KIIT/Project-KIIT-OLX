@@ -9,7 +9,20 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "primary": "#273321",
+        "secondary": "#629549",
+        "footer": "#D6FFC0",
+        "destructive": "#3C3D8E",
+      },
+      fontFamily: {
+        "sans": ["Roboto", "sans-serif"],
+        "serif": ["Merriweather", "serif"],
+        "popins": ["Poppins", "sans-serif"],
+        "inter": ["Inter", "sans-serif"],
+      },
+    }
   },
   plugins: [],
 }
