@@ -1,7 +1,7 @@
 <template>
-  <div class="fixed max-w-7xl left-0 right-0 mx-auto">
+  <div class="fixed max-w-7xl left-0 right-0 mx-auto top-0 m-0 z-[10]">
     <nav
-      class="flex items-center justify-between p-2 max-w-7xl mx-auto text-primary font-popins"
+      class="flex items-center justify-between p-2 max-w-7xl mx-auto text-primary font-popins "
     >
       <div class="flex gap-2 items-center">
         <NuxtImg
@@ -9,7 +9,7 @@
           alt="KIIT OLX"
           width="50"
           height="50"
-          class="h-[80px] mb-1"
+          class="h-[50px] mb-1"
         />
         <h1 class="text-xl"><span class="font-bold">KIIT</span> OLX</h1>
       </div>
