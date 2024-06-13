@@ -10,6 +10,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["shadcn-nuxt", "@nuxtjs/tailwindcss"],
+  modules: ["shadcn-nuxt", "@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/fonts"],
  
 })
